@@ -12,37 +12,60 @@ ASSIGNMENT RULES
  Create a variable and assign to it an array containing the first 5 positive numbers.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// const array1 = [1, 2, 3, 4, 5]
+// const extraNumber = 6
+// array1.push(extraNumber)
+// console.log(array1)
 
 /* EXERCISE 2
  Create a variable and assign to it an object containing your name, surname, email address and age.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// const myDetails = {
+//   myName: `Aneesah`,
+//   mySurname: `Khan`,
+//   myAge: 23,
+//   myEmail: `aneesahalmask@gmail.com`
+// }
+
+// myDetails.myLocation = `Manchester, UK`
+// console.log(myDetails)
 
 /* EXERCISE 3
- Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
+ Add to the previously created object a property with a boolean value to rappresent whether you have or not a driving license.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// myDetails.hasDriversLicense = true
+// console.log(myDetails)
 
 /* EXERCISE 4
  Remove from the previously created object the age property.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// delete myDetails.myAge
+// console.log(myDetails)
 
 /* EXERCISE 5
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// const details2 = Object.assign({}, myDetails)
+// details2.myName = `Eun-bin`
+// details2.mySurname = `Park`
+// details2.myEmail = `parkeunbin@gmail.com`
+// console.log(myDetails === details2)
 
 /* EXERCISE 6
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
  Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
  Write an algorithm that calculates the total cost to charge the user with.
 */
+
+let totalShoppingCart = 51
+let freeShipping = totalShoppingCart
+let cartWithShipping = totalShoppingCart + 10
+let total = totalShoppingCart > 50 ? freeShipping : cartWithShipping
+console.log(total)
 
 /* WRITE YOUR ANSWER HERE */
 
