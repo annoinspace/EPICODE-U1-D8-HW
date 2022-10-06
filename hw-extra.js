@@ -6,17 +6,25 @@
  [1, 3, 5] ==> [5, 3, 1]
 */
 
-/* WRITE YOUR ANSWER HERE */
+// const array = [1, 2, 3, 4, 5]
+// let revertedArray = array.reverse()
+// console.log(revertedArray)
 
 /* EXTRA 2
  Write a piece of code for getting the maximum numerical value from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// const array = [2, 45, 6, 99, 1432, 5, 9, 0]
+// const largestNum = Math.max(2, 45, 6, 99, 1432, 5, 9, 0)
+// console.log(largestNum)
 
 /* EXTRA 3
  Write a piece of code for getting the minimum numerical value from an array.
 */
+
+const array = [2, 45, 6, -99, 1432, 5, 9, 0]
+const smallestNum = Math.min(2, 45, 6, -99, 1432, 5, 9, 0)
+console.log(smallestNum)
 
 /* WRITE YOUR ANSWER HERE */
 

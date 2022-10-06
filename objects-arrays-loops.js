@@ -79,61 +79,63 @@ ASSIGNMENT RULES
  Then clone it 5 times, and change the licensePlate for each cloned car without affecting the original one.
 */
 
-const car1 = {
-  brand: "MG",
-  model: "MG4 EV",
-  licensePlate: "PE31 RUK"
-}
+// const car1 = {
+//   brand: "MG",
+//   model: "MG4 EV",
+//   licensePlate: "PE31 RUK"
+// }
 
-const car2 = Object.assign({}, car1)
-car2.licensePlate = "DK19 5HG"
+// const car2 = Object.assign({}, car1)
+// car2.licensePlate = "DK19 5HG"
 
-const car3 = Object.assign({}, car1)
-car3.licensePlate = "AU17 8JK"
+// const car3 = Object.assign({}, car1)
+// car3.licensePlate = "AU17 8JK"
 
-const car4 = Object.assign({}, car1)
-car4.licensePlate = "PI19 7EV"
+// const car4 = Object.assign({}, car1)
+// car4.licensePlate = "PI19 7EV"
 
-const car5 = Object.assign({}, car1)
-car5.licensePlate = "AN17 8AH"
+// const car5 = Object.assign({}, car1)
+// car5.licensePlate = "AN17 8AH"
 
-const car6 = Object.assign({}, car1)
-car6.licensePlate = "LK7 8EN"
+// const car6 = Object.assign({}, car1)
+// car6.licensePlate = "LK7 8EN"
 
 /* EXERCISE 9
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
 */
 
-let carsForRent = [car1, car2, car3, car4, car5, car6]
+// let carsForRent = [car1, car2, car3, car4, car5, car6]
 
 /* EXERCISE 10
  Remove the first and the last car from the carsForRent array.
 */
-carsForRent.splice(0, 1)
-carsForRent.pop()
+
+// carsForRent.splice(0, 1)
+// carsForRent.pop()
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
-console.log(typeof car1)
-console.log(typeof "licensePlate")
-console.log(typeof "brand")
+// console.log(typeof car1)
+// console.log(typeof "licensePlate")
+// console.log(typeof "brand")
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-let carsForSale = []
-carsForSale.push(car1, car2, car3)
-console.log(carsForSale)
+// let carsForSale = []
+// carsForSale.push(car1, car2, car3)
+// console.log(carsForSale)
 
-totalCars = carsForSale.length + carsForRent.length
-console.log(totalCars)
+// totalCars = carsForSale.length + carsForRent.length
+// console.log(totalCars)
+
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-for (let i = 0; i < carsForSale.length; i++) {
-  console.log(carsForSale[i])
-}
+// for (let i = 0; i < carsForSale.length; i++) {
+//   console.log(carsForSale[i])
+// }
